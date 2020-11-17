@@ -1,3 +1,6 @@
+// WORK IN PROGRESS - SUBJECT TO CHANGE
+
+
 /*--------- Constants ----------*/
 // Classes
     // Warrior
@@ -5,6 +8,8 @@
         // starting items
         // baseline dmg
         // Abilities
+
+        
     // Wizard
         // healthpool
         // starting items
@@ -17,7 +22,7 @@
         // Abilities
 
 // Enemies
-    // Enemy - HP/skills/abilities (there wont be to many because I can see it become overwhelming)
+    // Enemy - /Names/HP/skills/abilities (there wont be to many because I can see it become overwhelming)
 /*--------- Variables ----------*/
 // Turns (turn between player and AI)
 // Player Choices based upon encounter
