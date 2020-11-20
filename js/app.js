@@ -20,13 +20,16 @@
         // starting items
         // baseline dmg
         // Abilities
-
+const textElement = document.getElementById('text')
+const optionButtonsElement = document.getElementById('input-buttons')
 // Enemies
     // Enemy - /Names/HP/skills/abilities (there wont be to many because I can see it become overwhelming)
 /*--------- Variables ----------*/
 // Turns (turn between player and AI)
 // Player Choices based upon encounter
 
+// This is the player's 'state' throughout the game and it represeants how the player may be affected as the user makes choices.
+let playerState = {}
 
 
 /*--------- Event Listeners ----------*/
@@ -58,3 +61,40 @@
 // Calculating Damage Dealt
 // Calculating Damage Done
 // Getting additional items
+
+// Starts game and sets state as 
+function startGame () {
+    state = {}
+    showTextNode = (1)
+
+}
+
+function showTextNode(textNodeIndex) {
+    const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
+    textElement.innerText = textNode.text
+}
+
+function selectOption(option) {
+
+}
+
+// Text nodes that drive story progression and subsequent choices.
+const textNodes = [
+    {
+        id: 1,
+        text: "After a long and arduous journey from the capital, you reach your destination of Raven's Crest, a quiet town if it were'nt for influx of visitors and folks seeking fame, fortune, and adventure. As you make your way through the streets you notice the townsfolk look at you with steely cold eyes and glancing stares.",
+        options: [
+            {
+                text: "Ask one of the viligers where you can find a room and an ale",
+            },
+            {
+                text: "Go search for an inn on your own",
+            },
+            {
+                text: "What's that voice that I keep hearing?",
+            },
+        ]
+    }
+]
+
+startGame()
