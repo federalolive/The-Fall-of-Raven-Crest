@@ -48,7 +48,7 @@ function showOption(option) {
 const textNodes = [
     {
         id: 0,
-        text: "After a long and arduous journey from the capital, you reach your destination of Raven's Crest just as the sun begins to set. Raven's Crest is a quiet town that resides near The Duskwood and the Wildlands. You have been here before, and yet you do not remember there being this many people as you make your way through the streets. As you travel you notice the townsfolk look at you with steely cold eyes and glancing stares. You disregard it as you have other matters to attend to.",
+        text: "After a long and arduous journey from the capital, you reach your destination of Raven's Crest just as the sun begins to set. Raven's Crest is a quiet town that resides near The Duskwood and the Wildlands. You walk into town and you notice the townsfolk look at you with steely cold eyes and glancing stares. You disregard it as you have experianced this treatment before and there are other matters to tend to.",
         options: [
             {
                 text: "Ask one of the viligers where you can find a room and an ale",
@@ -72,18 +72,33 @@ const textNodes = [
     },
     {
         id: 1,
-        text: "As you are walking through the streets, you come accross a woman and ask her directions. \"\Piss off ya vagrant, we wont nothing to do with you outsiders\"\ she excalims.",
+        text: "As you are walking through the streets, you come accross a woman and ask her directions. \"Piss off ya vagrant, we wont nothing to do with you outsiders\" she excalims.",
         options: [
             {
                 text: "\"I beg your pardon\" You apologize to the woman and depart to find the inn on your own.",
                 nextText: 2
             },
             {
-                text: "How dare you speak to me in such a manner you wretched wench!\" Strike the woman.",
+                text: "\"How dare you speak to me in such a manner you wretched wench!\" Strike the woman.",
                 nextText: 5
             }
         ]
-}
+    },
+    {
+        id: 2,
+        text: "You head off in search of the inn, and after a short while you come accross \"The Rabid Weasal\". You mutter to yourself about the ridiculousness of such a name and contemplate how even such a name came to be, but just as quickly drop it as the desire to have a cold drink, hot food, and later a warm bed outweigh the thoughts of a silly name for an inn.",
+        options: [
+            {
+                text: "Enter the tavern",
+                nextText: 6
+            },
+            {
+                text: "Examine the area",
+                nextText: 7
+            }
+        ]
+    }
+    
 ]
 
 
