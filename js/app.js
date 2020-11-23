@@ -53,7 +53,6 @@ const textNodes = [
             {
                 text: "Ask one of the viligers where you can find a room and an ale",
                 nextText: 1
-
             },
             {
                 text: "Go search for an inn on your own",
@@ -142,6 +141,26 @@ const textNodes = [
     },
     {
         id: 6,
+        text: "As you approach the inn, a sudden chill pierces you and dances on your spine, the night is settling in. You notice a fog begin to rise and you feel a sense of joy and gratitude that you will not be spending your time in it. You turn your attention to the inn itself and notice that the outside of it looks gloomy, dull and dire. Stacked stones and marble details make up most of the building's outer structure. It's difficult to see through the small, stained glass windows, but the ominous atmosphere from within can be felt outside. As you enter the tavern through the thick, wooden door, you're welcomed by thick air and a feeling of discomfort. The bartender is talking to a customer and makes no effort to acknowledge your pressence. It's as somber inside as it is on the outside. Tree logs support the upper floor and the unlit torches attached to them. The walls are scattered with decor and game that has been hunted by locals. The inn is moderatly occupied with vilagers and people alike, all occupying their tables and tending to their conversations\,\ drink\,\ and food alike. You did hear rumors about this tavern, supposedly it's infamous for something, but for the life of you you can't remember what for.", 
+        options: [
+            {
+                text: "Walk over to the innkeeper.",
+                nextText: 13
+            }
+        ]
+    },
+    {
+        id: 7,
+        text: "You notice that you are alone and it is errily quiet. You have been through plenty of towns and villages before at all times of day, but have yet to experiance a stillness such as this. You dismiss such feelings and collect yourself as you walk up to the inn.",
+        options: [
+            {
+                text: "Enter the inn.",
+                nextText: 6
+            }
+        ]
+    },
+    {
+        
     }
 ]
 
