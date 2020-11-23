@@ -1,9 +1,28 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: fantasy;
-    font-size: 20px;
+@font-face {
+    font-family: 'fleshandblood';
+    src: url(/Users/jonathanpumphrey/code/sei/projects/Unit-1-Project/fonts/Fleshandblood-MVA5x.ttf);
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    background-color: black;
+}
+#header {
+    
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family: 'fleshandblood';
+}
 
 body {
     padding: 0;
@@ -15,11 +34,7 @@ body {
     height: 100vh;
     background-color: #333;
 }
-.title {
-   display: grid
-   grid-template-area: 
-   "topbar topbar topbar";
-}
+
 
 .container {
     width: 800px;
@@ -29,6 +44,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
+    font-family: fantasy;
 }
 
 .btn-grid {
@@ -45,6 +61,7 @@ body {
     padding: 5px 10px;
     color: white;
     outline: none;
+    font-family: fantasy;
 }
 
 .btn:hover {

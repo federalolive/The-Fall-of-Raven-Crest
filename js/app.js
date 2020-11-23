@@ -160,7 +160,8 @@ const textNodes = [
         ]
     },
     {
-        
+        id: 8,
+        text: ""
     }
 ]
 
