@@ -97,8 +97,52 @@ const textNodes = [
                 nextText: 7
             }
         ]
+    },
+    {
+        id: 3,
+        text: "You waste no time in seeking out work and head off to find the magistrate to seek contract work. When you arrive you find that office has closed for the day. You accept this position and decide that it is time for you to find your lodging for the evening and you stroll off to find an inn.",
+        options: [
+            {
+                text: "Seek out the inn",
+                nextText: 2
+            }
+        ]
+    },
+    {
+        id: 4,
+        text: "\"Hello?\" \"Who said that?\" you cried out nervously. \"How did you know I came from the capital? and where are you speaking to me from?\" you called out even louder. Disregarding your perception to the villigers you continuously seek to find asnwers to the source of the voices and disregard the small crowd that begins to form around you. You hear one vilager cry out \"Oi! He's talkin' to 'imself and mutterin' bout voices in 'is head!\" Other vilagers call out their criticisms of your behavior, and your heart sinks as you realize that you have drawn too much unwanted attention to yourself.",
+        options: [
+            {
+                text: "Down play the situation as if it were a joke.",
+                nextText: 8
+            },
+            {
+                text: "Apologize for the specticle as it has been a really long and tiresome journey and you are fatigued.",
+                nextText: 9
+            },
+            {
+                text: "\"Project\" your craziness onto someone in the croud to try and shake off the croud.",
+                nextText: 10
+            }
+        ]
+    },
+    {
+        id: 5,
+        text: "You shout as you strike the woman as hard as you can. The force of your blow knocking her back and down to the ground. You quickly realize that you two are not alone as you hear someone shout \"Guards! Guards!\" and before you can get away you here the sound of armored footsteps draw near you from behind, followed by the sensations of speartips digging through into your tunic enough to get your attention.",
+        options: [
+            {
+                text: "Fight your way out of the situation.",
+                nextText: 11
+            },
+            {
+                text: "\"Is there a problem sir?\"",
+                nextText: 12
+            },
+        ]
+    },
+    {
+        id: 6,
     }
-    
 ]
 
 
