@@ -212,12 +212,16 @@ const textNodes = [
     },
     {
         id: 11,
-        text: "You have reached the peak of your patience and in a flurry you whirl around knocking the guards back. As they attempt to regain their balance you draw your own blade and immediatly dispatch one of the guards as you decapitate them. You laugh meniacally as you attempt to flee ",
+        text: "You have reached the peak of your patience and in a flurry you whirl around knocking the guards back. As they attempt to regain their balance you draw your own blade and immediatly dispatch one of the guards as you decapitate them. You laugh meniacally as you attempt to flee. You do not make it very far before your hear galloping hooves and the clinking of armor racing up behind you. Before you can react you feel the icy chill of a polearm pierce your flesh and you fall to the earth. YOU DIED.",
         options: [
             {
-                
+                text: "RESTART",
+                nextText: -1,
             }
         ]
+    },
+    {
+        id
     }
 
 ]
