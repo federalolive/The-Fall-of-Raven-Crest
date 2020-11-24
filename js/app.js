@@ -1,5 +1,8 @@
-const textElement = document.getElementById('text')
+const textElement = document.getElementById('glowInText')
 const optionButtonsElement = document.getElementById('input-buttons')
+
+let glowInTexts = document.querySelectorAll(".glowInText");
+
 
 // This is the player's 'state' throughout the game and it represeants how the player may be affected as the user makes choices.
 let state = {}
@@ -43,6 +46,19 @@ function showOption(option) {
     state = Object.assign(state, option.setState)
     showTextNode(nextTextNodeId)
   }
+
+
+//   Text Animation
+glowInTexts.forEach(glowInText => {
+    let letters = glowInText.textNode.split("");
+    glowInText.textNode = "";
+    letters.forEach((letter, i) => {
+      let span = document.createElement("span");
+      span.textNode = letter;
+      span.style.animationDelay = `${i * 0.05}s`;
+      glowInText.append(span);
+    });
+  });
 
 // Text nodes that drive story progression and subsequent choices.
 const textNodes = [
@@ -164,6 +180,7 @@ const textNodes = [
         text: ""
     }
 ]
+
 
 
 startGame()
