@@ -177,8 +177,41 @@ const textNodes = [
     },
     {
         id: 8,
+        text: "You nervously laugh in an attempt to brush off the experiance as being nothing more than a joke. The viligers look at you with the least bit of amusement. \"This one's another weird one!\" one viligers called out, \"Let's get rid of 'em!\" cried out another, \"I bet they're responsible for all of the peculiar things that have befalling our town!\" screached another woman. The viligers began to qaurrel amongst themsevles, and you mumble under your breath in annoyance this voice has caused. \"You're not crazy untill you start replying\"....",
+        options: [
+            {
+                text: "Wait patiently for the viligers to decide what to do next.",
+                nextText: 14
+            },
+            {
+                text: "Try to escape",
+                nextText: 15
+            },
+            {
+                text: "\"I'm sick of this, you all die now\"",
+                nextText: 16
+            },
+            {   
+                text: "\"You can't possible tell me that you just didn't hear that!!!\"",
+                nextText: 17
+            }
+        ]
+    },
+    {
+        id: 9,
+        text: "You vehemently apologize for creating the specticle, expressing that you have been traveling for so long and that you are fatigied from hunger and thirst, and as a result lost bearing with your sense for an all to brief moment. This of course being a lie, you are very well of the voice that you continue to hear that continuously is narrating, but you are also smart enough to down play it. The crowd looks at you with a mixture of contempt and pitty as you sense that some are angry with you and others are not convinced that you are not an imbecile. You don't care however, as the disperse allowing you to go along your way. You decide for yourself that you have had enough of today and make your way to the inn. \"Shut up voice\" you mutter underyour breath.",
+        options: [
+            {
+                text: "Head to the inn",
+                nextText: 6
+            }
+        ]
+    },
+    {
+        id: 10,
         text: ""
     }
+
 ]
 
 
