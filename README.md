@@ -4,7 +4,7 @@ TFRC is an adventure like novel of my own imagination. Taking inspiration from f
 
 ## Installation
 
-The fall of Raven Crest can be accessed through [My GitHub](https://github.com/federalolive/Unit-1-Project.git) or through [Surge](optimal-cast.surge.sh).
+The fall of Raven Crest can be accessed through [My GitHub](https://github.com/federalolive/Unit-1-Project.git) or through [Surge](https://plastic-hate.surge.sh).
 
 ### Conceptual Wireframes
 
