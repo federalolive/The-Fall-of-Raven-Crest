@@ -1,7 +1,6 @@
+// Cached References
 const textElement = document.getElementById('glowInText')
 const optionButtonsElement = document.getElementById('input-buttons')
-
-
 
 // This is the player's 'state' throughout the game and it represeants how the player may be affected as the user makes choices.
 let state = {}
@@ -46,10 +45,7 @@ function showOption(option) {
     showTextNode(nextTextNodeId)
   }
 
-
-
-
-// Text nodes that drive story progression and subsequent choices.
+// Text nodes that drive story progression and subsequent choices. The id's are in numerical order NOT IN ORDER OF THE STORY!! Start with id: 0 and follow the nextText id to the next id node.
 const textNodes = [
     {
         id: 0,
