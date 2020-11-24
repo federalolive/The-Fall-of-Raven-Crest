@@ -221,7 +221,21 @@ const textNodes = [
         ]
     },
     {
-        id
+        id: 12,
+        text: "\"What's going on here?!\" barks one of the men from behind. \"This wild vagrant struck me!\" cried the woman, her face visibly bruised from the blow, \"I'd see em' hanged!\" she shrieked at the top of her lungs. \"Ok, ok, ok, we'll take it from here ma'am, we saw the whole thing\" said the other guard, \"Go home now, he's ours now\" he added. The woman began to protest, but was cut off as a large figure on a midknight black stead came into view. As the man came closer she bowed \"I'll take my leave then I will, they're your trouble now.\" she mutters and spits at you as she departs. The large man gets off his horse and inquires as to the situation and you find out he is Captain of the Gaurd and the commanding officer for the troops in the village. \"What are you doing causing trouble in my town?!\" the commander ordered, \"I would see you in the gallows if it were any other time\" he added, \"but you look like you are capable, so I'll give you a choice. Either come with me or I'll throw you in a cell.\"",
+        options: [
+            {
+                text: "\"I'll take my chances in the stockades.\"",
+                nextText: 19,
+            },
+            {
+                text: "Follow the Officer and find out what he wants.",
+                nextText: 20,
+            }
+        ]
+    },
+    {
+
     }
 
 ]
