@@ -1,4 +1,4 @@
-# The Fall of Recen Crest
+# The Fall of Raven Crest
 
 TFRC is an adventure like novel of my own imagination. Taking inspiration from fantesy genres and popular games such as *Dungeons and Dragons* and *World of Warcraft* in it you follow the narrative in effort to reach the end of the story.
 
