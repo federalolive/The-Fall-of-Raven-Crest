@@ -1,7 +1,6 @@
 const textElement = document.getElementById('glowInText')
 const optionButtonsElement = document.getElementById('input-buttons')
 
-let glowInTexts = document.querySelectorAll(".glowInText");
 
 
 // This is the player's 'state' throughout the game and it represeants how the player may be affected as the user makes choices.
@@ -48,17 +47,7 @@ function showOption(option) {
   }
 
 
-//   Text Animation
-glowInTexts.forEach(glowInText => {
-    let letters = glowInText.textNode.split("");
-    glowInText.textNode = "";
-    letters.forEach((letter, i) => {
-      let span = document.createElement("span");
-      span.textNode = letter;
-      span.style.animationDelay = `${i * 0.05}s`;
-      glowInText.append(span);
-    });
-  });
+
 
 // Text nodes that drive story progression and subsequent choices.
 const textNodes = [
@@ -209,7 +198,26 @@ const textNodes = [
     },
     {
         id: 10,
-        text: ""
+        text: "You frantically look around the crowd, looking for the biggest idiot you can. Your eyes rest upon a large heavyset man with cross eyes and patched hair. Before you can even think this plan through the words escape your mouth, \"I'm not crazy!! He is crazy!\" as you point your finger at your target in a clear projection. In perfect annunciation the man defends himself, denying such accusations as having no base. \"Lets put 'em in the stocks! See if spending the night outside will clear his head\" a few viligers cry out in unison. Before you can react you are grabbed by several people and they begin to carry you off.", 
+        options: [
+            {
+                text: "Try to escape",
+                nextText: 18,
+            },
+            {
+                text: "Attack the mob in an attempt to break free.",
+                nextText: 18,
+            },
+        ]
+    },
+    {
+        id: 11,
+        text: "You have reached the peak of your patience and in a flurry you whirl around knocking the guards back. As they attempt to regain their balance you draw your own blade and immediatly dispatch one of the guards as you decapitate them. You laugh meniacally as you attempt to flee ",
+        options: [
+            {
+                
+            }
+        ]
     }
 
 ]
