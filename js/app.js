@@ -1,6 +1,7 @@
 // Cached References
 const textElement = document.getElementById('glowInText')
 const optionButtonsElement = document.getElementById('input-buttons')
+let glowInTexts = document.querySelectorAll(".glowIn");
 
 // This is the player's 'state' throughout the game and it represeants how the player may be affected as the user makes choices.
 let state = {}
@@ -17,6 +18,16 @@ function showTextNode(textNodeIndex) {
     textElement.innerText = textNode.text
     while (optionButtonsElement.firstChild) {
       optionButtonsElement.removeChild(optionButtonsElement.firstChild)
+      glowInTexts.forEach(glowInText => {
+        let letters = glowInText.textContent.split("");
+        glowInText.textContent = "";
+        letters.forEach((letter, i) => {
+          let span = document.createElement("span");
+          span.textContent = letter;
+          span.style.animationDelay = `${i * 0.05}s`;
+          glowInText.append(span);
+        });
+      });
     }
 
 //  Buttons will display text of options in which the user can then choose and progres story
