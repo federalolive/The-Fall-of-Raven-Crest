@@ -31,15 +31,17 @@ function showTextNode(textNodeIndex) {
     }
 
 //  Buttons will display text of options in which the user can then choose and progres story
- textNode.options.forEach(option => {
-    if (showOption(option)) {
-      const button = document.createElement('button')
-      button.innerText = option.text
-      button.classList.add('btn')
-      button.addEventListener('click', () => selectOption(option))
-      optionButtonsElement.appendChild(button)
-    }
-  })
+setTimeout(function() {
+    textNode.options.forEach(option => {
+        if (showOption(option)) {
+            const button = document.createElement('button')
+            button.innerText = option.text
+            button.classList.add('btn')
+            button.addEventListener('click', () => selectOption(option))
+            optionButtonsElement.appendChild(button)
+        }
+    })
+  }, 7000)
 }
 
 // Allows user inputs to appear as they are referenced in the game (so they are not always visibly present)
